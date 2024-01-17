@@ -1,0 +1,16 @@
+package utils;
+
+public enum Fields {
+    USER_NAME,
+    PASSWORD,
+    FIRST_NAME_UNIQUE,
+    LAST_NAME_UNIQUE,
+    FIRST_NAME_VALID,
+    LAST_NAME_VALID,
+    EMAIL_UNIQUE,
+    EMAIL_VALID,
+    COMMENT_UNIQUE,
+    COMMENT_VALID,
+    SUBMIT_BUTTON,
+    LOGIN_BUTTON
+}
