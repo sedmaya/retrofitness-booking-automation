@@ -2,7 +2,7 @@
 <suite name="Suite1" parallel="classes" data-provider-thread-count="5">
     <test name="Test" >
         <classes>
-            <class name="runners.MainRunner"></class>
+            <class name="runners.TestNgRunner"></class>
         </classes>
     </test>
 </suite>

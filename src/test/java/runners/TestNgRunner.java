@@ -7,10 +7,10 @@ import org.testng.annotations.DataProvider;
 @CucumberOptions(features = {"classpath:features"},
         glue = {"stepDefinitions"},
         tags = "",
-        plugin = {"pretty", "html:target/cucumber", "json:target/cucumber.json"},
+        plugin = {"pretty", "html:test-output", "html:target/cucumber-html-report.html", "json:target/json-output/cucumber.json"},
         monochrome = true)
 
-public class MainRunner extends AbstractTestNGCucumberTests {
+public class TestNgRunner extends AbstractTestNGCucumberTests {
     @Override
     @DataProvider(parallel = true)
     public Object[][] scenarios() {
